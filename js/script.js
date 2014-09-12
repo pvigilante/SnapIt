@@ -10,8 +10,8 @@ $(document).ready(function(e){
 		$(this).removeClass('active');
 	});
 	
-	$.ajax({
-		url:'data.php',
+	$.ajax({ 
+		url:'http://petervigilante.catstudents.com/snapit/SnapIt/data.php',
 		success: function(data){
 			$('#explore ul').append(data);	
 		}
