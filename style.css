@@ -57,7 +57,7 @@ body {
 [data-role=footer] nav ul li {
 	flex: 1;
 	text-align: center;
-	align-self: center;
+	-webkit-align-self: center;
 	opacity: 0.5;
 }
 [data-role=footer] nav ul li a {
